@@ -10,9 +10,10 @@ Build a statistical framework to estimate the probability of a policyholder maki
 - **Records:** 58,592 policies
 - **Target Variable:** `is_claim` (binary: claim / no claim in the policy period)
 - **Key Features:** policyholder age, vehicle age, population density of area, vehicle segment, safety features (airbags, NCAP rating, ESC), engine specifications
+- **Class Balance:** Claims are a minority class relative to non-claims, typical of insurance claim data
 
 ## Technical Skills Applied
-- **Language:** R (base R + tidyverse)
+- **Language:** R 
 - **Statistical Methods:** Probability distributions, hypothesis testing (t-test, F-test), ANOVA, correlation, linear regression, generalized linear models (logistic regression), Bayesian credibility theory (EBCT)
 - **Tools:** Base R, data aggregation, model fitting, data visualization
 
@@ -24,11 +25,11 @@ This project demonstrates CS1-level actuarial competencies:
 - Bayesian/credibility methods for risk segmentation (as used in experience rating)
 
 ## Files
-- `motor-insurance-risk-claim-modelling.ipynb` - Main analysis (22 sections)
+- `motor-insurance-risk-claim-modelling.ipynb` - Main analysis
 - `train.csv` - Dataset
 
 ## Kaggle Project
-[Add your Kaggle notebook link here]
+https://www.kaggle.com/code/architmehta1908/motor-insurance-risk-claim-modelling
 
 ## Author
 Archit Mehta - Actuarial Aspirant (CM1, CS1)
