@@ -12,9 +12,14 @@ Build a statistical framework to estimate the probability of a policyholder maki
 - **Key Features:** policyholder age, vehicle age, population density of area, vehicle segment, safety features (airbags, NCAP rating, ESC), engine specifications
 - **Class Balance:** Claims are a minority class relative to non-claims, typical of insurance claim data
 
+## Key Findings
+- Overall claim rate: 6.4%
+- Strongest predictors: Age band (linear trend, p = 0.049) and the age-of-car × fuel-type interaction (p < 0.002) from the extended GLM
+- Fuel type, transmission type, vehicle weight, safety index, and brake type showed no significant standalone association with claims — a useful negative finding
+
 ## Technical Skills Applied
-- **Language:** R 
-- **Statistical Methods:** Probability distributions, hypothesis testing (t-test, F-test), ANOVA, correlation, linear regression, generalized linear models (logistic regression), Bayesian credibility theory (EBCT)
+- **Language:** R
+- **Statistical Methods:** Probability distributions & simulation, hypothesis testing (t-test, F-test, chi-square), confidence intervals, ANOVA, correlation, linear regression, generalized linear models (logistic regression), model selection (AIC, likelihood ratio tests), Bayesian credibility theory (EBCT)
 - **Tools:** Base R, data aggregation, model fitting, data visualization
 
 ## Actuarial Relevance
